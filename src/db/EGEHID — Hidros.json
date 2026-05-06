@@ -1,0 +1,362 @@
+[
+    {
+        "NOMBRE DE UNIDAD":"I. HIDROS DE EMBALSE",
+        "CÓDIGO DE UNIDAD":null,
+        "SUBTIPO\nHIDRO":null,
+        "POT. EFECT. NETA\n(MW)":null,
+        "POTENCIA MEDIA\n(MW)":null,
+        "POTENCIA FIRME\nFINAL (MW)":null
+    },
+    {
+        "NOMBRE DE UNIDAD":"AGUACATE 1",
+        "CÓDIGO DE UNIDAD":"G3AGUAC1",
+        "SUBTIPO\nHIDRO":"Embalse",
+        "POT. EFECT. NETA\n(MW)":28.5,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":28.5
+    },
+    {
+        "NOMBRE DE UNIDAD":"AGUACATE 2",
+        "CÓDIGO DE UNIDAD":"G3AGUAC2",
+        "SUBTIPO\nHIDRO":"Embalse",
+        "POT. EFECT. NETA\n(MW)":28.5,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":28.5
+    },
+    {
+        "NOMBRE DE UNIDAD":"JIGUEY 1",
+        "CÓDIGO DE UNIDAD":"G3JIGUE1",
+        "SUBTIPO\nHIDRO":"Embalse",
+        "POT. EFECT. NETA\n(MW)":44.238,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":44.238
+    },
+    {
+        "NOMBRE DE UNIDAD":"JIGUEY 2",
+        "CÓDIGO DE UNIDAD":"G3JIGUE2",
+        "SUBTIPO\nHIDRO":"Embalse",
+        "POT. EFECT. NETA\n(MW)":44.238,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":44.238
+    },
+    {
+        "NOMBRE DE UNIDAD":"MONCION 1",
+        "CÓDIGO DE UNIDAD":"G3MONCI1",
+        "SUBTIPO\nHIDRO":"Embalse",
+        "POT. EFECT. NETA\n(MW)":25.87,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":25.87
+    },
+    {
+        "NOMBRE DE UNIDAD":"MONCION 2",
+        "CÓDIGO DE UNIDAD":"G3MONCI2",
+        "SUBTIPO\nHIDRO":"Embalse",
+        "POT. EFECT. NETA\n(MW)":25.87,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":25.87
+    },
+    {
+        "NOMBRE DE UNIDAD":"RINCON",
+        "CÓDIGO DE UNIDAD":"G3RINCON",
+        "SUBTIPO\nHIDRO":"Embalse",
+        "POT. EFECT. NETA\n(MW)":10.05,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":10.05
+    },
+    {
+        "NOMBRE DE UNIDAD":"RIO BLANCO 1",
+        "CÓDIGO DE UNIDAD":"G3RBLAN1",
+        "SUBTIPO\nHIDRO":"Embalse",
+        "POT. EFECT. NETA\n(MW)":12.438,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":12.438
+    },
+    {
+        "NOMBRE DE UNIDAD":"RIO BLANCO 2",
+        "CÓDIGO DE UNIDAD":"G3RBLAN2",
+        "SUBTIPO\nHIDRO":"Embalse",
+        "POT. EFECT. NETA\n(MW)":12.438,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":12.438
+    },
+    {
+        "NOMBRE DE UNIDAD":"TAVERA 1",
+        "CÓDIGO DE UNIDAD":"G3TAVER1",
+        "SUBTIPO\nHIDRO":"Embalse",
+        "POT. EFECT. NETA\n(MW)":47.76,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":47.76
+    },
+    {
+        "NOMBRE DE UNIDAD":"TAVERA 2",
+        "CÓDIGO DE UNIDAD":"G3TAVER2",
+        "SUBTIPO\nHIDRO":"Embalse",
+        "POT. EFECT. NETA\n(MW)":47.76,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":47.76
+    },
+    {
+        "NOMBRE DE UNIDAD":"VALDESIA 1",
+        "CÓDIGO DE UNIDAD":"G3VALDE1",
+        "SUBTIPO\nHIDRO":"Embalse",
+        "POT. EFECT. NETA\n(MW)":25.0,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":25.0
+    },
+    {
+        "NOMBRE DE UNIDAD":"VALDESIA 2",
+        "CÓDIGO DE UNIDAD":"G3VALDE2",
+        "SUBTIPO\nHIDRO":"Embalse",
+        "POT. EFECT. NETA\n(MW)":25.0,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":25.0
+    },
+    {
+        "NOMBRE DE UNIDAD":"PINALITO 1",
+        "CÓDIGO DE UNIDAD":"G3PINALITO1",
+        "SUBTIPO\nHIDRO":"Embalse",
+        "POT. EFECT. NETA\n(MW)":24.875,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":24.875
+    },
+    {
+        "NOMBRE DE UNIDAD":"PINALITO 2",
+        "CÓDIGO DE UNIDAD":"G3PINALITO2",
+        "SUBTIPO\nHIDRO":"Embalse",
+        "POT. EFECT. NETA\n(MW)":24.875,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":24.875
+    },
+    {
+        "NOMBRE DE UNIDAD":"PALOMINO 1",
+        "CÓDIGO DE UNIDAD":"G3PALOMINO1",
+        "SUBTIPO\nHIDRO":"Embalse",
+        "POT. EFECT. NETA\n(MW)":40.0,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":40.0
+    },
+    {
+        "NOMBRE DE UNIDAD":"PALOMINO 2",
+        "CÓDIGO DE UNIDAD":"G3PALOMINO2",
+        "SUBTIPO\nHIDRO":"Embalse",
+        "POT. EFECT. NETA\n(MW)":40.0,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":40.0
+    },
+    {
+        "NOMBRE DE UNIDAD":"SUBTOTAL EMBALSE",
+        "CÓDIGO DE UNIDAD":null,
+        "SUBTIPO\nHIDRO":null,
+        "POT. EFECT. NETA\n(MW)":507.412,
+        "POTENCIA MEDIA\n(MW)":"—",
+        "POTENCIA FIRME\nFINAL (MW)":507.412
+    },
+    {
+        "NOMBRE DE UNIDAD":"II. HIDROS DE PASADA",
+        "CÓDIGO DE UNIDAD":null,
+        "SUBTIPO\nHIDRO":null,
+        "POT. EFECT. NETA\n(MW)":null,
+        "POTENCIA MEDIA\n(MW)":null,
+        "POTENCIA FIRME\nFINAL (MW)":null
+    },
+    {
+        "NOMBRE DE UNIDAD":"LOPEZ ANGOSTURA",
+        "CÓDIGO DE UNIDAD":"G3LANGOS",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":16.915,
+        "POTENCIA MEDIA\n(MW)":"11.481",
+        "POTENCIA FIRME\nFINAL (MW)":11.481
+    },
+    {
+        "NOMBRE DE UNIDAD":"ANIANA VARGAS 1",
+        "CÓDIGO DE UNIDAD":"G3AVARG1",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":0.328,
+        "POTENCIA MEDIA\n(MW)":"0.299",
+        "POTENCIA FIRME\nFINAL (MW)":0.299
+    },
+    {
+        "NOMBRE DE UNIDAD":"ANIANA VARGAS 2",
+        "CÓDIGO DE UNIDAD":"G3AVARG2",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":0.328,
+        "POTENCIA MEDIA\n(MW)":"0.299",
+        "POTENCIA FIRME\nFINAL (MW)":0.299
+    },
+    {
+        "NOMBRE DE UNIDAD":"BAIGUAQUE 1",
+        "CÓDIGO DE UNIDAD":"G3BAIGU1",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":0.597,
+        "POTENCIA MEDIA\n(MW)":"0.041",
+        "POTENCIA FIRME\nFINAL (MW)":0.041
+    },
+    {
+        "NOMBRE DE UNIDAD":"BAIGUAQUE 2",
+        "CÓDIGO DE UNIDAD":"G3BAIGU2",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":0.597,
+        "POTENCIA MEDIA\n(MW)":"0.045",
+        "POTENCIA FIRME\nFINAL (MW)":0.045
+    },
+    {
+        "NOMBRE DE UNIDAD":"CONTRA EMBALSE MONCION 2",
+        "CÓDIGO DE UNIDAD":"G3CEMON2",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":1.493,
+        "POTENCIA MEDIA\n(MW)":"0.581",
+        "POTENCIA FIRME\nFINAL (MW)":0.581
+    },
+    {
+        "NOMBRE DE UNIDAD":"LOS ANONES",
+        "CÓDIGO DE UNIDAD":"G3LANONE",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":0.09,
+        "POTENCIA MEDIA\n(MW)":"0.001",
+        "POTENCIA FIRME\nFINAL (MW)":0.001
+    },
+    {
+        "NOMBRE DE UNIDAD":"DOMINGO RODRIGUEZ 1",
+        "CÓDIGO DE UNIDAD":"G3DRODR1",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":1.791,
+        "POTENCIA MEDIA\n(MW)":"1.796",
+        "POTENCIA FIRME\nFINAL (MW)":1.796
+    },
+    {
+        "NOMBRE DE UNIDAD":"DOMINGO RODRIGUEZ 2",
+        "CÓDIGO DE UNIDAD":"G3DRODR2",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":1.791,
+        "POTENCIA MEDIA\n(MW)":"1.796",
+        "POTENCIA FIRME\nFINAL (MW)":1.796
+    },
+    {
+        "NOMBRE DE UNIDAD":"EL SALTO",
+        "CÓDIGO DE UNIDAD":"G3ESALTO",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":0.547,
+        "POTENCIA MEDIA\n(MW)":"0.052",
+        "POTENCIA FIRME\nFINAL (MW)":0.052
+    },
+    {
+        "NOMBRE DE UNIDAD":"HATILLO",
+        "CÓDIGO DE UNIDAD":"G3HATILL",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":7.96,
+        "POTENCIA MEDIA\n(MW)":"6.163",
+        "POTENCIA FIRME\nFINAL (MW)":6.163
+    },
+    {
+        "NOMBRE DE UNIDAD":"JIMENOA",
+        "CÓDIGO DE UNIDAD":"G3JIMENO",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":7.463,
+        "POTENCIA MEDIA\n(MW)":"2.52",
+        "POTENCIA FIRME\nFINAL (MW)":2.52
+    },
+    {
+        "NOMBRE DE UNIDAD":"LAS DAMAS",
+        "CÓDIGO DE UNIDAD":"G3LDAMAS",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":2.886,
+        "POTENCIA MEDIA\n(MW)":"1.193",
+        "POTENCIA FIRME\nFINAL (MW)":1.193
+    },
+    {
+        "NOMBRE DE UNIDAD":"NIZAO NAJAYO",
+        "CÓDIGO DE UNIDAD":"G3NNAJAY",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":0.328,
+        "POTENCIA MEDIA\n(MW)":"0.013",
+        "POTENCIA FIRME\nFINAL (MW)":0.013
+    },
+    {
+        "NOMBRE DE UNIDAD":"LOS TOROS 2",
+        "CÓDIGO DE UNIDAD":"G3LTORO2",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":9.426,
+        "POTENCIA MEDIA\n(MW)":"2.915",
+        "POTENCIA FIRME\nFINAL (MW)":2.915
+    },
+    {
+        "NOMBRE DE UNIDAD":"CONTRA EMBALSE MONCION 1",
+        "CÓDIGO DE UNIDAD":"G3CEMON1",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":1.493,
+        "POTENCIA MEDIA\n(MW)":"0.56",
+        "POTENCIA FIRME\nFINAL (MW)":0.56
+    },
+    {
+        "NOMBRE DE UNIDAD":"SABANA YEGUA",
+        "CÓDIGO DE UNIDAD":"G3SYEGUA",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":11.443,
+        "POTENCIA MEDIA\n(MW)":"9.83",
+        "POTENCIA FIRME\nFINAL (MW)":9.83
+    },
+    {
+        "NOMBRE DE UNIDAD":"SABANETA",
+        "CÓDIGO DE UNIDAD":"G3SABANE",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":4.378,
+        "POTENCIA MEDIA\n(MW)":"2.351",
+        "POTENCIA FIRME\nFINAL (MW)":2.351
+    },
+    {
+        "NOMBRE DE UNIDAD":"LOS TOROS 1",
+        "CÓDIGO DE UNIDAD":"G3LTORO1",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":9.426,
+        "POTENCIA MEDIA\n(MW)":"2.98",
+        "POTENCIA FIRME\nFINAL (MW)":2.98
+    },
+    {
+        "NOMBRE DE UNIDAD":"ROSA JULIA DE LA CRUZ",
+        "CÓDIGO DE UNIDAD":"G3RJCRUZ",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":0.846,
+        "POTENCIA MEDIA\n(MW)":"0.545",
+        "POTENCIA FIRME\nFINAL (MW)":0.545
+    },
+    {
+        "NOMBRE DE UNIDAD":"MAGUEYAL 1",
+        "CÓDIGO DE UNIDAD":"G3MAGUE1",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":1.592,
+        "POTENCIA MEDIA\n(MW)":"1.464",
+        "POTENCIA FIRME\nFINAL (MW)":1.464
+    },
+    {
+        "NOMBRE DE UNIDAD":"MAGUEYAL 2",
+        "CÓDIGO DE UNIDAD":"G3MAGUE2",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":1.592,
+        "POTENCIA MEDIA\n(MW)":"1.464",
+        "POTENCIA FIRME\nFINAL (MW)":1.464
+    },
+    {
+        "NOMBRE DE UNIDAD":"LAS BARIAS",
+        "CÓDIGO DE UNIDAD":"G3LABARIA",
+        "SUBTIPO\nHIDRO":"Pasada",
+        "POT. EFECT. NETA\n(MW)":0.846,
+        "POTENCIA MEDIA\n(MW)":"0.648",
+        "POTENCIA FIRME\nFINAL (MW)":0.648
+    },
+    {
+        "NOMBRE DE UNIDAD":"SUBTOTAL PASADA",
+        "CÓDIGO DE UNIDAD":null,
+        "SUBTIPO\nHIDRO":null,
+        "POT. EFECT. NETA\n(MW)":84.156,
+        "POTENCIA MEDIA\n(MW)":"49.037",
+        "POTENCIA FIRME\nFINAL (MW)":49.037
+    },
+    {
+        "NOMBRE DE UNIDAD":"TOTAL HIDROELÉCTRICO EGEHID",
+        "CÓDIGO DE UNIDAD":null,
+        "SUBTIPO\nHIDRO":null,
+        "POT. EFECT. NETA\n(MW)":591.568,
+        "POTENCIA MEDIA\n(MW)":"49.037",
+        "POTENCIA FIRME\nFINAL (MW)":556.449
+    }
+]

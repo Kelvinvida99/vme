@@ -1,0 +1,1222 @@
+[
+    {
+        "CENTRAL \/ UNIDAD":"TOTAL PARQUE GENERADOR",
+        "AGENTE GENERADOR":null,
+        "FECHA ENTRADA EN\nOP. COMERCIAL":null,
+        "CAP. INSTALADA\n(MW)":7574.41,
+        "POT. EFECTIVA NETA\n(MW)":"4812.8680000000013",
+        "MARGEN DE\nREGULACIÓN (MW)":"376.86200000000008",
+        "TECNOLOGÍA":null,
+        "FUENTE PRIMARIA\nDE ENERGÍA":null
+    },
+    {
+        "CENTRAL \/ UNIDAD":"AES Andrés",
+        "AGENTE GENERADOR":"AES ANDRÉS DR, S.A.",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":319.0,
+        "POT. EFECTIVA NETA\n(MW)":"296",
+        "MARGEN DE\nREGULACIÓN (MW)":null,
+        "TECNOLOGÍA":"Ciclo Combinado",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"GAS NATURAL Y FUEL OIL #2"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Aguacate 1",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":30.0,
+        "POT. EFECTIVA NETA\n(MW)":"28.5",
+        "MARGEN DE\nREGULACIÓN (MW)":"1.5",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Aguacate 2",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":30.0,
+        "POT. EFECTIVA NETA\n(MW)":"28.5",
+        "MARGEN DE\nREGULACIÓN (MW)":"1.5",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Aniana Vargas 1",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":0.3,
+        "POT. EFECTIVA NETA\n(MW)":"0.328",
+        "MARGEN DE\nREGULACIÓN (MW)":"-0.028",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Aniana Vargas 2",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":0.3,
+        "POT. EFECTIVA NETA\n(MW)":"0.328",
+        "MARGEN DE\nREGULACIÓN (MW)":"-0.028",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Baiguaque 1",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":0.6,
+        "POT. EFECTIVA NETA\n(MW)":"0.597",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.003",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Baiguaque 2",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":0.6,
+        "POT. EFECTIVA NETA\n(MW)":"0.597",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.003",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Barahona Carbón",
+        "AGENTE GENERADOR":"EGE-HAINA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":53.0,
+        "POT. EFECTIVA NETA\n(MW)":"48.54",
+        "MARGEN DE\nREGULACIÓN (MW)":"4.46",
+        "TECNOLOGÍA":"Turbina a Vapor",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"CARBÓN"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Bersal",
+        "AGENTE GENERADOR":"MONTE RÍO",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":25.2,
+        "POT. EFECTIVA NETA\n(MW)":"23.85",
+        "MARGEN DE\nREGULACIÓN (MW)":"1.35",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"FUEL OIL # 6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Brazo Derecho",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":2.9,
+        "POT. EFECTIVA NETA\n(MW)":"2.88",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"CESPM 1",
+        "AGENTE GENERADOR":"COMPAÑÍA ELÉCTRICA DE SAN PEDRO DE MACORÍS",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"30-Enero-2021",
+        "CAP. INSTALADA\n(MW)":100.0,
+        "POT. EFECTIVA NETA\n(MW)":"96.27",
+        "MARGEN DE\nREGULACIÓN (MW)":"3.73",
+        "TECNOLOGÍA":"Ciclo Combinado",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"GAS NATURAL Y FUEL OIL #2"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"CESPM 2",
+        "AGENTE GENERADOR":"COMPAÑÍA ELÉCTRICA DE SAN PEDRO DE MACORÍS",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":100.0,
+        "POT. EFECTIVA NETA\n(MW)":"98.4",
+        "MARGEN DE\nREGULACIÓN (MW)":"1.6",
+        "TECNOLOGÍA":"Ciclo Combinado",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"GAS NATURAL Y FUEL OIL #2"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"CESPM 3",
+        "AGENTE GENERADOR":"COMPAÑÍA ELÉCTRICA DE SAN PEDRO DE MACORÍS",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":100.0,
+        "POT. EFECTIVA NETA\n(MW)":"99.6",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.4",
+        "TECNOLOGÍA":"Ciclo Combinado",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"GAS NATURAL Y FUEL OIL #2"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Contra Embalse Monción 1",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":1.6,
+        "POT. EFECTIVA NETA\n(MW)":"1.493",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.107",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Contra Embalse Monción 2",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":1.6,
+        "POT. EFECTIVA NETA\n(MW)":"1.493",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.107",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Domingo Rodríguez 1",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":2.0,
+        "POT. EFECTIVA NETA\n(MW)":"1.791",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.209",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Domingo Rodríguez 2",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":2.0,
+        "POT. EFECTIVA NETA\n(MW)":"1.791",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.209",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"El Salto",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":0.7,
+        "POT. EFECTIVA NETA\n(MW)":"0.547",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.153",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Energas 4",
+        "AGENTE GENERADOR":"COMPAÑÍA ELÉCTRICA DE SAN PEDRO DE MACORÍS",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"21-Febrero-2026",
+        "CAP. INSTALADA\n(MW)":130.0,
+        "POT. EFECTIVA NETA\n(MW)":"126.6",
+        "MARGEN DE\nREGULACIÓN (MW)":"3.4",
+        "TECNOLOGÍA":"Ciclo Combinado",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"GAS NATURAL Y FUEL OIL #2"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Estrella Del Mar 2",
+        "AGENTE GENERADOR":"SEABOARD TRANSCONTINENTAL CAPITAL",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":111.26,
+        "POT. EFECTIVA NETA\n(MW)":"108.6",
+        "MARGEN DE\nREGULACIÓN (MW)":"2.66",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"GAS NATURAL Y FUEL OIL #6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Estrella Del Mar 3",
+        "AGENTE GENERADOR":"SEABOARD TRANSCONTINENTAL CAPITAL",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"05-Noviembre-2022",
+        "CAP. INSTALADA\n(MW)":150.25,
+        "POT. EFECTIVA NETA\n(MW)":"148.09",
+        "MARGEN DE\nREGULACIÓN (MW)":"2.16",
+        "TECNOLOGÍA":"Ciclo Combinado",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"GAS NATURAL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Haina TG",
+        "AGENTE GENERADOR":"EGE-HAINA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":100.0,
+        "POT. EFECTIVA NETA\n(MW)":"99.81",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.19",
+        "TECNOLOGÍA":"Turbina a Gas",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"FUEL OIL # 2"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Hatillo",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":8.0,
+        "POT. EFECTIVA NETA\n(MW)":"7.96",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.04",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Hatillo 2",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":10.5,
+        "POT. EFECTIVA NETA\n(MW)":"10.25",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Inca KM22",
+        "AGENTE GENERADOR":"MONTE RÍO",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":14.6,
+        "POT. EFECTIVA NETA\n(MW)":"14.22",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.38",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"FUEL OIL # 6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Itabo 1",
+        "AGENTE GENERADOR":"EGE-ITABO",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":128.0,
+        "POT. EFECTIVA NETA\n(MW)":"116.99",
+        "MARGEN DE\nREGULACIÓN (MW)":"11.01",
+        "TECNOLOGÍA":"Turbina a Vapor",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"CARBÓN"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Itabo 2",
+        "AGENTE GENERADOR":"EGE-ITABO",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":132.0,
+        "POT. EFECTIVA NETA\n(MW)":"117",
+        "MARGEN DE\nREGULACIÓN (MW)":"15",
+        "TECNOLOGÍA":"Turbina a Vapor",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"CARBÓN"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Jiguey 1",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":49.0,
+        "POT. EFECTIVA NETA\n(MW)":"44.238",
+        "MARGEN DE\nREGULACIÓN (MW)":"4.762",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Jiguey 2",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":49.0,
+        "POT. EFECTIVA NETA\n(MW)":"44.238",
+        "MARGEN DE\nREGULACIÓN (MW)":"4.762",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Jimenoa",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":8.82,
+        "POT. EFECTIVA NETA\n(MW)":"7.463",
+        "MARGEN DE\nREGULACIÓN (MW)":"1.357",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"La Vega",
+        "AGENTE GENERADOR":"GENERADORA PALAMARA LA VEGA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":92.14,
+        "POT. EFECTIVA NETA\n(MW)":"87.56",
+        "MARGEN DE\nREGULACIÓN (MW)":"4.58",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"FUEL OIL # 6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Las Barías",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":0.9,
+        "POT. EFECTIVA NETA\n(MW)":"0.846",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.054",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Las Damas",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":7.5,
+        "POT. EFECTIVA NETA\n(MW)":"2.886",
+        "MARGEN DE\nREGULACIÓN (MW)":"4.614",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Los Anones",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":0.11,
+        "POT. EFECTIVA NETA\n(MW)":"0.09",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.02",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Los Orígenes",
+        "AGENTE GENERADOR":"LOS ORÍGENES",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":60.72,
+        "POT. EFECTIVA NETA\n(MW)":"57.32",
+        "MARGEN DE\nREGULACIÓN (MW)":"3.4",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"GAS NATURAL Y FUEL OIL #6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Los Toros 1",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":4.9,
+        "POT. EFECTIVA NETA\n(MW)":"9.426",
+        "MARGEN DE\nREGULACIÓN (MW)":"-4.526",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Los Toros 2",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":4.9,
+        "POT. EFECTIVA NETA\n(MW)":"9.426",
+        "MARGEN DE\nREGULACIÓN (MW)":"-4.526",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"López Angostura",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":18.0,
+        "POT. EFECTIVA NETA\n(MW)":"16.915",
+        "MARGEN DE\nREGULACIÓN (MW)":"1.085",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Magueyal 1",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":1.51,
+        "POT. EFECTIVA NETA\n(MW)":"1.592",
+        "MARGEN DE\nREGULACIÓN (MW)":"-0.082",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Magueyal 2",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":1.51,
+        "POT. EFECTIVA NETA\n(MW)":"1.592",
+        "MARGEN DE\nREGULACIÓN (MW)":"-0.082",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Metaldom",
+        "AGENTE GENERADOR":"COMPLEJO METALÚRGICO DOMINICANO",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":42.0,
+        "POT. EFECTIVA NETA\n(MW)":"40.7",
+        "MARGEN DE\nREGULACIÓN (MW)":"1.3",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"FUEL OIL # 6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Monción 1",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":26.0,
+        "POT. EFECTIVA NETA\n(MW)":"25.87",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.13",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Monción 2",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":26.0,
+        "POT. EFECTIVA NETA\n(MW)":"25.87",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.13",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Monte Plata Solar",
+        "AGENTE GENERADOR":"ELECTRONIC J.R.C, S.R.L.",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"20-Agosto-2016",
+        "CAP. INSTALADA\n(MW)":60.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Monte Río",
+        "AGENTE GENERADOR":"LEAR INVESTMENTS",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":101.48,
+        "POT. EFECTIVA NETA\n(MW)":"96.6",
+        "MARGEN DE\nREGULACIÓN (MW)":"4.88",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"FUEL OIL # 6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Nizao Najayo",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":0.33,
+        "POT. EFECTIVA NETA\n(MW)":"0.328",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.002",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Palamara",
+        "AGENTE GENERADOR":"GENERADORA PALAMARA LA VEGA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":107.0,
+        "POT. EFECTIVA NETA\n(MW)":"102.53",
+        "MARGEN DE\nREGULACIÓN (MW)":"4.47",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"FUEL OIL # 6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Palenque",
+        "AGENTE GENERADOR":"EGE-HAINA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"21-Julio-2018",
+        "CAP. INSTALADA\n(MW)":25.6,
+        "POT. EFECTIVA NETA\n(MW)":"24.2",
+        "MARGEN DE\nREGULACIÓN (MW)":"1.4",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"FUEL OIL # 6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Palomino 1",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":40.8,
+        "POT. EFECTIVA NETA\n(MW)":"40",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.8",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Palomino 2",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":40.8,
+        "POT. EFECTIVA NETA\n(MW)":"40",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.8",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Parque Energético Los Mina",
+        "AGENTE GENERADOR":"DOMINICAN POWER PARTNERS",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":359.25,
+        "POT. EFECTIVA NETA\n(MW)":"318",
+        "MARGEN DE\nREGULACIÓN (MW)":"41.25",
+        "TECNOLOGÍA":"Ciclo Combinado",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"GAS NATURAL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Parque Eólico Agua Clara",
+        "AGENTE GENERADOR":"AGUA CLARA, S.A.",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"04-Mayo-2019",
+        "CAP. INSTALADA\n(MW)":52.5,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Eólica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"VIENTO"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Parque Eólico De Matafongo",
+        "AGENTE GENERADOR":"GRUPO EÓLICO DOMINICANO",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"07-Septiembre-2019",
+        "CAP. INSTALADA\n(MW)":49.6,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Eólica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"VIENTO"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Parque Eólico Esperanza",
+        "AGENTE GENERADOR":"EGE-HAINA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Pendiente",
+        "CAP. INSTALADA\n(MW)":49.5,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Eólica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"VIENTO"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Parque Eólico Guanillo",
+        "AGENTE GENERADOR":"PARQUES EÓLICOS DEL CARIBE, S.A.",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"10-Agosto-2019",
+        "CAP. INSTALADA\n(MW)":52.5,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Eólica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"VIENTO"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Parque Eólico Larimar",
+        "AGENTE GENERADOR":"EGE-HAINA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"30-Julio-2016",
+        "CAP. INSTALADA\n(MW)":49.5,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Eólica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"VIENTO"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Parque Eólico Larimar II",
+        "AGENTE GENERADOR":"EGE-HAINA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"26-Enero-2019",
+        "CAP. INSTALADA\n(MW)":48.3,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Eólica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"VIENTO"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Parque Eólico Los Cocos",
+        "AGENTE GENERADOR":"EGE-HAINA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":25.2,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Eólica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"VIENTO"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Parque Eólico Los Cocos 2",
+        "AGENTE GENERADOR":"EGE-HAINA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":52.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Eólica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"VIENTO"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Parque Eólico Los Guzmancitos",
+        "AGENTE GENERADOR":"POSEIDON ENERGIA RENOVABLE, S.A.",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"02-Mayo-2020",
+        "CAP. INSTALADA\n(MW)":48.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Eólica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"VIENTO"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Parque Eólico Los Guzmancitos II",
+        "AGENTE GENERADOR":"POSEIDON ENERGIA RENOVABLE, S.A.",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Pendiente",
+        "CAP. INSTALADA\n(MW)":46.8,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Eólica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"VIENTO"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Parque Eólico Quilvio Cabrera",
+        "AGENTE GENERADOR":"EGE-HAINA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":8.25,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Eólica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"VIENTO"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Calabaza",
+        "AGENTE GENERADOR":"ENREN, S.R.L.",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"27-Julio-2025",
+        "CAP. INSTALADA\n(MW)":50.6,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Coastal",
+        "AGENTE GENERADOR":"COASTAL PETROLEUM DOMINICANA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"11-Octubre-2025",
+        "CAP. INSTALADA\n(MW)":110.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Cotoperí I",
+        "AGENTE GENERADOR":"COTOPERÍ SOLAR FV",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"29-Noviembre-2025",
+        "CAP. INSTALADA\n(MW)":48.06,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Cotoperí II",
+        "AGENTE GENERADOR":"COTOPERÍ SOLAR FV",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"29-Noviembre-2025",
+        "CAP. INSTALADA\n(MW)":48.06,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Cotoperí III",
+        "AGENTE GENERADOR":"COTOPERÍ SOLAR FV",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Pendiente",
+        "CAP. INSTALADA\n(MW)":48.06,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Cumayasa 1",
+        "AGENTE GENERADOR":"EFD ECOENER FOTOVOLTAICA DOMINICANA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"09-Diciembre-2023",
+        "CAP. INSTALADA\n(MW)":50.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Cumayasa 2",
+        "AGENTE GENERADOR":"EFD ECOENER FOTOVOLTAICA DOMINICANA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"09-Diciembre-2023",
+        "CAP. INSTALADA\n(MW)":30.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Cumayasa 4",
+        "AGENTE GENERADOR":"RENEWABLE ENERGY WORLD DOMINICANA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"06-Diciembre-2025",
+        "CAP. INSTALADA\n(MW)":50.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV La Victoria",
+        "AGENTE GENERADOR":"DESARROLLOS FOTOVOLTAICOS DSS",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Pendiente",
+        "CAP. INSTALADA\n(MW)":50.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Los Negros",
+        "AGENTE GENERADOR":"PHINIE & CO DEVELOPMENT S.R.L.",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"18-Mayo-2024",
+        "CAP. INSTALADA\n(MW)":17.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Lucila",
+        "AGENTE GENERADOR":"ETERRA GRUPO ECOENERGETICO DEL CARIBE",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Pendiente",
+        "CAP. INSTALADA\n(MW)":10.3,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Maranatha Fase I",
+        "AGENTE GENERADOR":"MARANATHA ENERGY INVESTMENT",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Pendiente",
+        "CAP. INSTALADA\n(MW)":10.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Martí",
+        "AGENTE GENERADOR":"TROPIGAS DOMINICANA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"29-Noviembre-2025",
+        "CAP. INSTALADA\n(MW)":43.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Mata De Palma",
+        "AGENTE GENERADOR":"WCG ENERGY, LTD",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"15-Febrero-2020",
+        "CAP. INSTALADA\n(MW)":49.88,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Matrisol",
+        "AGENTE GENERADOR":"MATRISOL, S.A.S.",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"18-Mayo-2024",
+        "CAP. INSTALADA\n(MW)":46.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Mirasol",
+        "AGENTE GENERADOR":"AES DOMINICANA RENEWABLE ENERGY",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"03-Mayo-2025",
+        "CAP. INSTALADA\n(MW)":100.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Montecristi Solar 1",
+        "AGENTE GENERADOR":"MONTECRISTI SOLAR FV, S.A.S.",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"10-Diciembre-2018",
+        "CAP. INSTALADA\n(MW)":50.6,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Payita 1",
+        "AGENTE GENERADOR":"LCV ECOENER SOLARES DOMINICANA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"03-Enero-2026",
+        "CAP. INSTALADA\n(MW)":50.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Peravia I",
+        "AGENTE GENERADOR":"I.E. DR PROJECTS I",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"27-Septiembre-2025",
+        "CAP. INSTALADA\n(MW)":70.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Peravia II",
+        "AGENTE GENERADOR":"I.E. DR PROJECTS I",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"27-Septiembre-2025",
+        "CAP. INSTALADA\n(MW)":70.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Sajoma",
+        "AGENTE GENERADOR":"EGE-HAINA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"07-Diciembre-2024",
+        "CAP. INSTALADA\n(MW)":68.4,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Santanasol",
+        "AGENTE GENERADOR":"AES DOMINICANA RENEWABLE ENERGY",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"29-Octubre-2022",
+        "CAP. INSTALADA\n(MW)":50.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Washington Capital 2",
+        "AGENTE GENERADOR":"WCGF SOLAR II, S.R.L.",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Pendiente",
+        "CAP. INSTALADA\n(MW)":50.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"PFV Washington Capital 3",
+        "AGENTE GENERADOR":"ENERGIA RENOVABLE BAS",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Pendiente",
+        "CAP. INSTALADA\n(MW)":50.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Pimentel 1",
+        "AGENTE GENERADOR":"LAESA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":31.43,
+        "POT. EFECTIVA NETA\n(MW)":"30.8",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.63",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"FUEL OIL # 6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Pimentel 2",
+        "AGENTE GENERADOR":"LAESA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":27.9,
+        "POT. EFECTIVA NETA\n(MW)":"27.5",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.4",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"FUEL OIL # 6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Pimentel 3",
+        "AGENTE GENERADOR":"LAESA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":51.23,
+        "POT. EFECTIVA NETA\n(MW)":"50.43",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.8",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"FUEL OIL # 6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Pimentel 4",
+        "AGENTE GENERADOR":"LAESA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"30-Noviembre-2024",
+        "CAP. INSTALADA\n(MW)":36.26,
+        "POT. EFECTIVA NETA\n(MW)":"36",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.26",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"GAS NATURAL Y FUEL OIL #6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Pinalito 1",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":25.0,
+        "POT. EFECTIVA NETA\n(MW)":"24.875",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.125",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Pinalito 2",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":25.0,
+        "POT. EFECTIVA NETA\n(MW)":"24.875",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.125",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Powership Azua KPS 01",
+        "AGENTE GENERADOR":"KARPOWERSHIP DOMINICAN REPUBLIC",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Pendiente",
+        "CAP. INSTALADA\n(MW)":230.0,
+        "POT. EFECTIVA NETA\n(MW)":"—",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"FUEL OIL # 6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Powership Azua KPS 26",
+        "AGENTE GENERADOR":"KARPOWERSHIP DOMINICAN REPUBLIC",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"20-Enero-2024",
+        "CAP. INSTALADA\n(MW)":108.78,
+        "POT. EFECTIVA NETA\n(MW)":"101.03",
+        "MARGEN DE\nREGULACIÓN (MW)":"7.75",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"FUEL OIL # 6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Powership Azua KPS 60",
+        "AGENTE GENERADOR":"KARPOWERSHIP DOMINICAN REPUBLIC",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"20-Enero-2024",
+        "CAP. INSTALADA\n(MW)":79.88,
+        "POT. EFECTIVA NETA\n(MW)":"71.91",
+        "MARGEN DE\nREGULACIÓN (MW)":"7.97",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"FUEL OIL # 6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Punta Catalina 1",
+        "AGENTE GENERADOR":"EGE PUNTA CATALINA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"16-Enero-2021",
+        "CAP. INSTALADA\n(MW)":391.0,
+        "POT. EFECTIVA NETA\n(MW)":"337.39",
+        "MARGEN DE\nREGULACIÓN (MW)":"53.61",
+        "TECNOLOGÍA":"Turbina a Vapor",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"CARBÓN"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Punta Catalina 2",
+        "AGENTE GENERADOR":"EGE PUNTA CATALINA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"16-Enero-2021",
+        "CAP. INSTALADA\n(MW)":391.0,
+        "POT. EFECTIVA NETA\n(MW)":"337.39",
+        "MARGEN DE\nREGULACIÓN (MW)":"53.61",
+        "TECNOLOGÍA":"Turbina a Vapor",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"CARBÓN"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Quisqueya 1",
+        "AGENTE GENERADOR":"PVDC",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":156.94,
+        "POT. EFECTIVA NETA\n(MW)":"66.77",
+        "MARGEN DE\nREGULACIÓN (MW)":"90.17",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"GAS NATURAL Y FUEL OIL #6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Quisqueya 1 San Pedro",
+        "AGENTE GENERADOR":"PVDC",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":68.3,
+        "POT. EFECTIVA NETA\n(MW)":"—",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"GAS NATURAL Y FUEL OIL #6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Quisqueya 2",
+        "AGENTE GENERADOR":"EGE-HAINA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":225.24,
+        "POT. EFECTIVA NETA\n(MW)":"220.9",
+        "MARGEN DE\nREGULACIÓN (MW)":"4.34",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"GAS NATURAL Y FUEL OIL #6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Rincón",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":10.1,
+        "POT. EFECTIVA NETA\n(MW)":"10.05",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.05",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Rosa Julia De La Cruz",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":0.9,
+        "POT. EFECTIVA NETA\n(MW)":"0.846",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.054",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Río Blanco 1",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":12.5,
+        "POT. EFECTIVA NETA\n(MW)":"12.438",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.062",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Río Blanco 2",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":12.5,
+        "POT. EFECTIVA NETA\n(MW)":"12.438",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.062",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Sabana Yegua",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":12.8,
+        "POT. EFECTIVA NETA\n(MW)":"11.443",
+        "MARGEN DE\nREGULACIÓN (MW)":"1.357",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Sabaneta",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":6.3,
+        "POT. EFECTIVA NETA\n(MW)":"4.378",
+        "MARGEN DE\nREGULACIÓN (MW)":"1.922",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"San Felipe",
+        "AGENTE GENERADOR":"GENERADORA SAN FELIPE LP (GSF)",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"06-Junio-2016",
+        "CAP. INSTALADA\n(MW)":185.0,
+        "POT. EFECTIVA NETA\n(MW)":"176.4",
+        "MARGEN DE\nREGULACIÓN (MW)":"8.6",
+        "TECNOLOGÍA":"Ciclo Combinado",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"FUEL OIL # 6 Y #2"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"San Lorenzo",
+        "AGENTE GENERADOR":"EGE-ITABO",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":34.0,
+        "POT. EFECTIVA NETA\n(MW)":"32.1",
+        "MARGEN DE\nREGULACIÓN (MW)":"1.9",
+        "TECNOLOGÍA":"Turbina a Gas",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"GAS NATURAL Y FUEL OIL #2"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"San Pedro Bio-Energy",
+        "AGENTE GENERADOR":"SAN PEDRO BIO-ENERGY S.R.L.",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"03-Junio-2017",
+        "CAP. INSTALADA\n(MW)":30.0,
+        "POT. EFECTIVA NETA\n(MW)":"27.8",
+        "MARGEN DE\nREGULACIÓN (MW)":"2.2",
+        "TECNOLOGÍA":"Turbina a Vapor",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"BIOMASA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Parque Solar Bayahonda",
+        "AGENTE GENERADOR":"AES DOMINICANA RENEWABLE ENERGY",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"10-Julio-2021",
+        "CAP. INSTALADA\n(MW)":50.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Parque Solar Canoa",
+        "AGENTE GENERADOR":"EMERALD SOLAR ENERGY, S.R.L.",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"07-Marzo-2020",
+        "CAP. INSTALADA\n(MW)":25.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Parque Solar El Soco",
+        "AGENTE GENERADOR":"KOROR BUSINESS, S.R.L.",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"01-Octubre-2022",
+        "CAP. INSTALADA\n(MW)":50.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Parque Solar Esperanza",
+        "AGENTE GENERADOR":"EGE-HAINA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"04-Noviembre-2023",
+        "CAP. INSTALADA\n(MW)":76.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Parque Solar Girasol",
+        "AGENTE GENERADOR":"EGE-HAINA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"04-Diciembre-2021",
+        "CAP. INSTALADA\n(MW)":100.0,
+        "POT. EFECTIVA NETA\n(MW)":"0",
+        "MARGEN DE\nREGULACIÓN (MW)":"—",
+        "TECNOLOGÍA":"Solar",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"SOL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"SIBA Ciclo Simple",
+        "AGENTE GENERADOR":"SIBA ENERGY CORPORATION",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"02-Septiembre-2023",
+        "CAP. INSTALADA\n(MW)":269.28,
+        "POT. EFECTIVA NETA\n(MW)":"262.89",
+        "MARGEN DE\nREGULACIÓN (MW)":"6.39",
+        "TECNOLOGÍA":"Ciclo Combinado",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"GAS NATURAL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"SIBA Ciclo Combinado",
+        "AGENTE GENERADOR":"SIBA ENERGY CORPORATION",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"07-Febrero-2026",
+        "CAP. INSTALADA\n(MW)":269.28,
+        "POT. EFECTIVA NETA\n(MW)":"257.84",
+        "MARGEN DE\nREGULACIÓN (MW)":"11.44",
+        "TECNOLOGÍA":"Ciclo Combinado",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"GAS NATURAL"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Sultana Del Este",
+        "AGENTE GENERADOR":"EGE-HAINA",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":51.0,
+        "POT. EFECTIVA NETA\n(MW)":"50.14",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.86",
+        "TECNOLOGÍA":"Motor combustión interna",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"FUEL OIL # 6"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Tavera 1",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":48.0,
+        "POT. EFECTIVA NETA\n(MW)":"47.76",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.24",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Tavera 2",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":48.0,
+        "POT. EFECTIVA NETA\n(MW)":"47.76",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.24",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Valdesia 1",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":25.5,
+        "POT. EFECTIVA NETA\n(MW)":"25",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.5",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    },
+    {
+        "CENTRAL \/ UNIDAD":"Valdesia 2",
+        "AGENTE GENERADOR":"EGEHID",
+        "FECHA ENTRADA EN\nOP. COMERCIAL":"Sin registros",
+        "CAP. INSTALADA\n(MW)":25.5,
+        "POT. EFECTIVA NETA\n(MW)":"25",
+        "MARGEN DE\nREGULACIÓN (MW)":"0.5",
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "FUENTE PRIMARIA\nDE ENERGÍA":"AGUA"
+    }
+]

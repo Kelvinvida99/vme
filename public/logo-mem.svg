@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" role="img" aria-label="Viceministerio de Energía Eléctrica — Ministerio de Energía y Minas">
+  
+  
+  <g>
+    <rect x="4" y="14" width="52" height="52" rx="2" fill="#fff" stroke="#CED4DA"></rect>
+    <rect x="4" y="14" width="26" height="26" fill="#0A2A66"></rect>
+    <rect x="30" y="40" width="26" height="26" fill="#0A2A66"></rect>
+    <rect x="30" y="14" width="26" height="26" fill="#CC1F2D"></rect>
+    <rect x="4" y="40" width="26" height="26" fill="#CC1F2D"></rect>
+    <rect x="27" y="14" width="6" height="52" fill="#fff"></rect>
+    <rect x="4" y="37" width="52" height="6" fill="#fff"></rect>
+  </g>
+  
+  <g font-family="Inter, system-ui, sans-serif" fill="#004e68">
+    <text x="72" y="34" font-size="14" font-weight="700" letter-spacing="0.02em">MINISTERIO DE ENERGÍA Y MINAS</text>
+    <text x="72" y="52" font-size="12" font-weight="500" fill="#343A40">Viceministerio de Energía Eléctrica</text>
+    <text x="72" y="68" font-size="9" font-weight="500" fill="#6C757D" letter-spacing="0.06em">REPÚBLICA DOMINICANA</text>
+  </g>
+</svg>

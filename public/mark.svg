@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VME mark">
+  <rect width="64" height="64" rx="12" fill="#004e68"></rect>
+  
+  <path d="M28 12 L18 36 L28 36 L24 52 L46 28 L34 28 L40 12 Z" fill="#fff"></path>
+</svg>

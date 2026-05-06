@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Escudo nacional placeholder">
+  <circle cx="40" cy="40" r="36" fill="#fff" stroke="#004e68" stroke-width="2"></circle>
+  <rect x="22" y="26" width="36" height="28" fill="#fff" stroke="#004e68" stroke-width="1.5"></rect>
+  <line x1="22" y1="40" x2="58" y2="40" stroke="#CC1F2D" stroke-width="1.5"></line>
+  <line x1="40" y1="26" x2="40" y2="54" stroke="#CC1F2D" stroke-width="1.5"></line>
+  <text x="40" y="68" text-anchor="middle" font-family="Inter, sans-serif" font-size="6" fill="#004e68" font-weight="700" letter-spacing="0.1em">REP. DOM.</text>
+</svg>

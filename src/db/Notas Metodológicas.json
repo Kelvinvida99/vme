@@ -1,0 +1,34 @@
+[
+    {
+        "Tabla Unificada del Parque Generador SENI":"Fuente 1",
+        "Unnamed: 1":"Entrada_Operacion_Comercial_Centrales_Y_Potencia_Efectiva_Neta.xlsx — Hoja GENERADORAS: fechas de entrada en operación comercial por agente y central. Hoja PEN: Potencia Efectiva Neta (MW) declarada al OC-SENI."
+    },
+    {
+        "Tabla Unificada del Parque Generador SENI":"Fuente 2",
+        "Unnamed: 1":"TABLAS_Y_FIGURAS_MEMORIA_2025_Gerencia_de_Operaciones_2026_02_13_V0.xlsx — Hoja 'DATA (Capacidad instalada-unid)': capacidad instalada nominal por unidad, tecnología y fuente primaria de energía."
+    },
+    {
+        "Tabla Unificada del Parque Generador SENI":"CI (MW)",
+        "Unnamed: 1":"Capacidad Instalada nominal declarada en la Memoria de Operaciones 2025 del MEM-RD. Representa la capacidad de placa del generador."
+    },
+    {
+        "Tabla Unificada del Parque Generador SENI":"PEN (MW)",
+        "Unnamed: 1":"Potencia Efectiva Neta: capacidad real disponible para despacho, certificada por el OC-SENI. Aplica solo a centrales registradas en la hoja PEN del archivo fuente."
+    },
+    {
+        "Tabla Unificada del Parque Generador SENI":"Margen",
+        "Unnamed: 1":"Margen de Regulación = CI − PEN. Representa la diferencia entre capacidad nominal y potencia neta certificada. '—' indica que la PEN no está disponible en el archivo fuente (principalmente ERNC y EGEHID)."
+    },
+    {
+        "Tabla Unificada del Parque Generador SENI":"Fechas",
+        "Unnamed: 1":"'Sin registros' indica que la central no tiene fecha de entrada registrada en el archivo fuente del OC-SENI (generalmente centrales anteriores a la digitalización del registro o anteriores al SENI moderno). 'Pendiente' indica centrales en proceso de habilitación comercial."
+    },
+    {
+        "Tabla Unificada del Parque Generador SENI":"ERNC",
+        "Unnamed: 1":"Los parques solares y eólicos no aparecen desglosados en la hoja PEN del archivo fuente, razón por la cual su PEN y margen figuran como '—' en la tabla principal."
+    },
+    {
+        "Tabla Unificada del Parque Generador SENI":"Compilación",
+        "Unnamed: 1":"Tabla elaborada por el Ministerio de Energía y Minas (MEM-RD), Dirección de Planificación y Desarrollo del Sector Energético. Mayo 2026."
+    }
+]

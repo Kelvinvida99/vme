@@ -1,0 +1,191 @@
+/* ============================================================
+   Viceministerio de Energía — Design Tokens
+   Paleta institucional estricta. NO inventar colores.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* ---------- CORE BRAND ---------- */
+  --vme-primary:        #004e68;   /* Estructura, headers, UI principal */
+  --vme-primary-hover:  #003a4f;   /* Hover sobre primary */
+  --vme-primary-active: #002a3a;   /* Pressed */
+  --vme-primary-tint:   #e6eef2;   /* Fondo suave / header de tablas */
+  --vme-primary-tint-2: #cfdde4;   /* Borde suave sobre tint */
+
+  /* ---------- ALERT (uso exclusivo: alertas / valores negativos) ---------- */
+  --vme-alert:          #FF0000;
+  --vme-alert-soft:     #ffe5e5;   /* Fondo de toast/badge crítico */
+  --vme-alert-border:   #ffb3b3;
+
+  /* ---------- BACKGROUND ---------- */
+  --vme-bg:             #FFFFFF;   /* Background principal */
+  --vme-bg-app:         #F8F9FA;   /* Lienzo del dashboard */
+
+  /* ---------- DISTRIBUCIÓN (solo data viz / segmentación) ---------- */
+  --vme-edeeste:        #FFCC00;   /* Amarillo */
+  --vme-edenorte:       #4F81BD;   /* Azul */
+  --vme-edesur:         #E46C0A;   /* Naranja */
+
+  /* ---------- NEUTRAL SUPPORT ---------- */
+  --vme-gray-50:        #F8F9FA;   /* Light Gray */
+  --vme-gray-100:       #EEF1F4;
+  --vme-gray-200:       #CED4DA;   /* Medium Gray — bordes, divisores */
+  --vme-gray-300:       #ADB5BD;
+  --vme-gray-500:       #6C757D;   /* Texto secundario */
+  --vme-gray-700:       #495057;
+  --vme-gray-900:       #343A40;   /* Dark Gray — texto principal */
+
+  /* ---------- ESTADOS SEMÁNTICOS ----------
+     Normal → primary. Warning → amarillo distrib (Edeeste).
+     Critical → alert. Positive → verde (único color añadido,
+     necesario para tendencias positivas en KPIs según brief). */
+  --vme-state-normal:    var(--vme-primary);
+  --vme-state-warning:   #FFCC00;        /* Reutiliza Edeeste */
+  --vme-state-critical:  var(--vme-alert);
+  --vme-state-positive:  #2E7D32;        /* Verde institucional, sólo trends */
+  --vme-state-positive-soft: #e8f3e9;
+
+  /* ---------- TEXTO (semántico) ---------- */
+  --vme-fg-1:           var(--vme-gray-900);  /* Títulos, KPI values */
+  --vme-fg-2:           var(--vme-gray-700);  /* Body */
+  --vme-fg-3:           var(--vme-gray-500);  /* Labels, captions */
+  --vme-fg-on-primary:  #FFFFFF;
+  --vme-fg-link:        var(--vme-primary);
+
+  /* ---------- BORDES ---------- */
+  --vme-border:         var(--vme-gray-200);
+  --vme-border-strong:  var(--vme-gray-300);
+  --vme-border-subtle:  var(--vme-gray-100);
+
+  /* ---------- TIPOGRAFÍA ---------- */
+  --vme-font:           'Inter', 'Roboto', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --vme-font-mono:      'JetBrains Mono', 'SF Mono', Menlo, monospace;
+
+  /* Tamaños — escala basada en el brief */
+  --vme-fs-display:     32px;     /* KPI value grande */
+  --vme-fs-kpi:         28px;     /* KPI value estándar */
+  --vme-fs-h1:          24px;     /* Título de página */
+  --vme-fs-h2:          20px;     /* Sección */
+  --vme-fs-h3:          16px;     /* Card title */
+  --vme-fs-body:        14px;     /* Texto base de UI */
+  --vme-fs-label:       13px;     /* Labels, captions */
+  --vme-fs-micro:       12px;     /* Micro labels, tags */
+
+  --vme-lh-tight:       1.2;
+  --vme-lh-normal:      1.45;
+  --vme-lh-loose:       1.6;
+
+  --vme-fw-regular:     400;
+  --vme-fw-medium:      500;
+  --vme-fw-semibold:    600;
+  --vme-fw-bold:        700;
+
+  --vme-tracking-caps:  0.04em;  /* SECTION LABELS EN MAYÚSCULAS */
+
+  /* ---------- ESPACIADO (múltiplos de 8) ---------- */
+  --vme-space-1:        4px;     /* sub-unidad: micro gaps */
+  --vme-space-2:        8px;
+  --vme-space-3:        12px;
+  --vme-space-4:        16px;    /* padding interno de cards */
+  --vme-space-5:        24px;    /* margen horizontal del layout */
+  --vme-space-6:        32px;
+  --vme-space-7:        40px;
+  --vme-space-8:        48px;
+  --vme-space-9:        64px;
+
+  --vme-margin-h:       24px;    /* horizontal margin del brief */
+
+  /* ---------- RADIOS ---------- */
+  --vme-radius-sm:      6px;     /* badges, tags */
+  --vme-radius-md:      10px;    /* botones, inputs */
+  --vme-radius-lg:      12px;    /* KPI cards, cards estándar */
+  --vme-radius-xl:      14px;    /* contenedores grandes */
+  --vme-radius-pill:    999px;
+
+  /* ---------- SOMBRAS (elevación suave) ---------- */
+  --vme-shadow-0:       none;
+  --vme-shadow-1:       0 1px 2px rgba(15, 35, 50, 0.04),
+                        0 1px 3px rgba(15, 35, 50, 0.06);
+  --vme-shadow-2:       0 1px 2px rgba(15, 35, 50, 0.04),
+                        0 4px 12px rgba(15, 35, 50, 0.08);
+  --vme-shadow-3:       0 8px 24px rgba(15, 35, 50, 0.12);
+  --vme-shadow-focus:   0 0 0 3px rgba(0, 78, 104, 0.18);
+
+  /* ---------- LAYOUT ---------- */
+  --vme-grid-cols:      12;
+  --vme-grid-gutter:    24px;
+  --vme-container-max:  1440px;
+
+  /* ---------- TRANSICIONES ---------- */
+  --vme-ease:           cubic-bezier(0.2, 0.6, 0.2, 1);
+  --vme-dur-fast:       120ms;
+  --vme-dur-base:       180ms;
+}
+
+/* ============================================================
+   Estilos base semánticos
+   ============================================================ */
+
+html, body {
+  font-family: var(--vme-font);
+  font-size: var(--vme-fs-body);
+  line-height: var(--vme-lh-normal);
+  color: var(--vme-fg-1);
+  background: var(--vme-bg-app);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, .vme-h1 {
+  font-size: var(--vme-fs-h1);
+  font-weight: var(--vme-fw-semibold);
+  line-height: var(--vme-lh-tight);
+  color: var(--vme-fg-1);
+  letter-spacing: -0.01em;
+}
+
+h2, .vme-h2 {
+  font-size: var(--vme-fs-h2);
+  font-weight: var(--vme-fw-semibold);
+  line-height: var(--vme-lh-tight);
+  color: var(--vme-fg-1);
+}
+
+h3, .vme-h3 {
+  font-size: var(--vme-fs-h3);
+  font-weight: var(--vme-fw-semibold);
+  line-height: var(--vme-lh-tight);
+  color: var(--vme-fg-1);
+}
+
+p, .vme-body {
+  font-size: var(--vme-fs-body);
+  color: var(--vme-fg-2);
+  line-height: var(--vme-lh-normal);
+}
+
+.vme-label {
+  font-size: var(--vme-fs-label);
+  color: var(--vme-fg-3);
+  font-weight: var(--vme-fw-medium);
+}
+
+.vme-caps {
+  text-transform: uppercase;
+  letter-spacing: var(--vme-tracking-caps);
+  font-size: var(--vme-fs-micro);
+  font-weight: var(--vme-fw-semibold);
+  color: var(--vme-fg-3);
+}
+
+.vme-mono {
+  font-family: var(--vme-font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Tabular nums por defecto en cualquier número de KPI */
+.vme-num {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
+}

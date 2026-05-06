@@ -1,0 +1,74 @@
+[
+    {
+        "TECNOLOGÍA":"Ciclo Combinado",
+        "N° CENTRALES":10.0,
+        "CAP. INSTALADA TOTAL (MW)":1982.06,
+        "PEN TOTAL (MW)":"1584.09",
+        "MARGEN TOTAL (MW)":"78.97",
+        "% DE CAP. INSTALADA":0.2616784674,
+        "POT. FIRME TOTAL\n(MW) — HIDROS":"—"
+    },
+    {
+        "TECNOLOGÍA":"Eólica",
+        "N° CENTRALES":11.0,
+        "CAP. INSTALADA TOTAL (MW)":482.15,
+        "PEN TOTAL (MW)":"—",
+        "MARGEN TOTAL (MW)":"—",
+        "% DE CAP. INSTALADA":0.063655123,
+        "POT. FIRME TOTAL\n(MW) — HIDROS":"—"
+    },
+    {
+        "TECNOLOGÍA":"Hidroeléctrica",
+        "N° CENTRALES":42.0,
+        "CAP. INSTALADA TOTAL (MW)":623.28,
+        "PEN TOTAL (MW)":"591.568",
+        "MARGEN TOTAL (MW)":"18.312",
+        "% DE CAP. INSTALADA":0.0822875973,
+        "POT. FIRME TOTAL\n(MW) — HIDROS":"556.449"
+    },
+    {
+        "TECNOLOGÍA":"Motor combustión interna",
+        "N° CENTRALES":20.0,
+        "CAP. INSTALADA TOTAL (MW)":1646.96,
+        "PEN TOTAL (MW)":"1211.06",
+        "MARGEN TOTAL (MW)":"137.6",
+        "% DE CAP. INSTALADA":0.2174373978,
+        "POT. FIRME TOTAL\n(MW) — HIDROS":"—"
+    },
+    {
+        "TECNOLOGÍA":"Solar",
+        "N° CENTRALES":30.0,
+        "CAP. INSTALADA TOTAL (MW)":1580.96,
+        "PEN TOTAL (MW)":"—",
+        "MARGEN TOTAL (MW)":"—",
+        "% DE CAP. INSTALADA":0.2087238478,
+        "POT. FIRME TOTAL\n(MW) — HIDROS":"—"
+    },
+    {
+        "TECNOLOGÍA":"Turbina a Gas",
+        "N° CENTRALES":2.0,
+        "CAP. INSTALADA TOTAL (MW)":134.0,
+        "PEN TOTAL (MW)":"131.91",
+        "MARGEN TOTAL (MW)":"2.09",
+        "% DE CAP. INSTALADA":0.0176911469,
+        "POT. FIRME TOTAL\n(MW) — HIDROS":"—"
+    },
+    {
+        "TECNOLOGÍA":"Turbina a Vapor",
+        "N° CENTRALES":6.0,
+        "CAP. INSTALADA TOTAL (MW)":1125.0,
+        "PEN TOTAL (MW)":"985.11",
+        "MARGEN TOTAL (MW)":"139.89",
+        "% DE CAP. INSTALADA":0.1485264199,
+        "POT. FIRME TOTAL\n(MW) — HIDROS":"—"
+    },
+    {
+        "TECNOLOGÍA":"TOTAL SENI",
+        "N° CENTRALES":null,
+        "CAP. INSTALADA TOTAL (MW)":7574.41,
+        "PEN TOTAL (MW)":null,
+        "MARGEN TOTAL (MW)":null,
+        "% DE CAP. INSTALADA":1.0,
+        "POT. FIRME TOTAL\n(MW) — HIDROS":null
+    }
+]

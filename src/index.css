@@ -1,0 +1,26 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--vme-bg-app);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--vme-primary);
+  outline-offset: 2px;
+}
+
+input:focus-visible, select:focus-visible {
+  outline: none;
+  box-shadow: var(--vme-shadow-focus);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--vme-gray-50); }
+::-webkit-scrollbar-thumb { background: var(--vme-gray-200); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--vme-gray-300); }
