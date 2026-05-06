@@ -1,6 +1,6 @@
-const USUARIO    = import.meta.env.VITE_OC_USER ?? 'MEM'
-const CLAVE      = import.meta.env.VITE_OC_CLAVE ?? 'M1n15t3r10'
-const ANO_DEFAULT = import.meta.env.VITE_OC_ANO ?? new Date().getFullYear()
+const USUARIO    = "MEM"
+const CLAVE      = "M1n15t3r10"
+const ANO_DEFAULT = "2026"
 
 export async function fetchCapacidadInstalada(ano = ANO_DEFAULT) {
   const params = new URLSearchParams({ Ano: String(ano), Usuario: USUARIO, Clave: CLAVE })
