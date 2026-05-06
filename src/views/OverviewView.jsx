@@ -3,13 +3,11 @@ import ChartCard from '../components/ChartCard'
 import TechDonut, { TECH_COLORS } from '../components/charts/TechDonut'
 import TopCentralesBar from '../components/charts/TopCentralesBar'
 import TechGroupedBar, { TECH_SERIES } from '../components/charts/TechGroupedBar'
+import CIFuenteBar, { FUENTE_COLORS } from '../components/charts/CIFuenteBar'
 import { fmtNumber, fmtPct } from '../lib/format'
 
-export default function OverviewView({ parque, resumen }) {
+export default function OverviewView({ parque, resumen, ciApi }) {
   const totalCI = resumen.reduce((s, d) => s + (d.ci || 0), 0)
-  // PEN se suma desde las filas individuales del parque porque Resumen marca
-  // Solar y Eólica como '—' (no desglosadas en la hoja PEN de la fuente),
-  // pero cada central sí tiene su PEN declarada individualmente.
   const totalPEN = parque.reduce((s, d) => s + (d.pen || 0), 0)
   const totalMargen = resumen.reduce((s, d) => s + (d.margen || 0), 0)
   const totalCentrales = parque.length
@@ -23,6 +21,13 @@ export default function OverviewView({ parque, resumen }) {
     { label: 'Margen de regulación',         value: fmtNumber(totalMargen, 0), unit: 'MW',  sub: 'CI − PEN' },
     { label: 'Participación ERNC',           value: fmtPct(pctERNC),           unit: '',    sub: 'Solar + Eólica / total CI' },
   ]
+
+  const ciLoading = ciApi.loading
+  const ciError   = ciApi.error
+  const ciData    = ciApi.data ?? []
+  const ciActualizado = ciData[0]?.ACTUALIZADO
+    ? new Date(ciData[0].ACTUALIZADO).toLocaleDateString('es-DO', { day: '2-digit', month: 'short', year: 'numeric' })
+    : null
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
@@ -65,6 +70,19 @@ export default function OverviewView({ parque, resumen }) {
       >
         <TechGroupedBar data={resumen} />
       </ChartCard>
+
+      <ChartCard
+        title="Capacidad instalada por fuente primaria · OC-SENI"
+        sub={ciActualizado ? `MW · actualizado ${ciActualizado} · Fuente: OC apps.oc.org.do` : 'MW · Fuente: Organismo Coordinador SENI'}
+        legend={ciData.map(d => ({ label: d.FUENTE, color: FUENTE_COLORS[d.FUENTE] || '#CED4DA' }))}
+      >
+        {ciLoading && <div style={s.apiState}>Cargando datos del OC…</div>}
+        {ciError   && <div style={{ ...s.apiState, color: '#DC3545' }}>Error al cargar datos del OC: {ciError}</div>}
+        {!ciLoading && !ciError && ciData.length === 0 && (
+          <div style={s.apiState}>Sin datos disponibles. Verifique las credenciales en el archivo <code>.env</code>.</div>
+        )}
+        {!ciLoading && !ciError && ciData.length > 0 && <CIFuenteBar data={ciData} />}
+      </ChartCard>
     </div>
   )
 }
@@ -77,4 +95,5 @@ const s = {
   pillDot: { width: 6, height: 6, borderRadius: 999, background: '#2E7D32', boxShadow: '0 0 0 3px rgba(46,125,50,0.2)', display: 'inline-block' },
   rowKpis: { display: 'grid', gridTemplateColumns: 'repeat(5,1fr)', gap: 16 },
   rowCharts: { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 },
+  apiState: { padding: '32px 0', textAlign: 'center', fontSize: 13, color: '#6C757D' },
 }

@@ -1,15 +1,16 @@
 import ChartCard from '../components/ChartCard'
-import HidroFirmeBar, { SUBTIPO_COLORS } from '../components/charts/HidroFirmeBar'
+import HidroFirmeBar from '../components/charts/HidroFirmeBar'
 import { fmtNumber } from '../lib/format'
 
 const th = { background: '#e6eef2', color: '#004e68', fontWeight: 700, fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.04em', padding: '10px 14px', textAlign: 'left', borderBottom: '1px solid #cfdde4' }
 const td = { padding: '11px 14px', fontSize: 13, color: '#495057', borderBottom: '1px solid #EEF1F4' }
 
 const SUBTIPOS = ['Embalse', 'Pasada', 'Filo de agua']
+const SUBTIPO_COLORS = { 'Embalse': '#004e68', 'Pasada': '#4F81BD', 'Filo de agua': '#E46C0A' }
 
-export default function HidrosView({ hidros }) {
-  const totalFirme = hidros.reduce((s, d) => s + (d.potFirme || 0), 0)
-  const totalPEN = hidros.reduce((s, d) => s + (d.pen || 0), 0)
+export default function HidrosView({ hidros, hidroParque }) {
+  const totalCI  = hidroParque.reduce((s, d) => s + (d.ci  || 0), 0)
+  const totalPEN = hidroParque.reduce((s, d) => s + (d.pen || 0), 0)
 
   const bySubtipo = SUBTIPOS.map(st => ({
     subtipo: st,
@@ -23,17 +24,17 @@ export default function HidrosView({ hidros }) {
     <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
       <div>
         <h1 style={s.h1}>Centrales hidroeléctricas · EGEHID</h1>
-        <p style={s.sub}>Potencia efectiva neta y potencia firme por unidad · Datos OC-SENI</p>
+        <p style={s.sub}>Capacidad instalada por central · Datos OC-SENI / Parque Generador</p>
       </div>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 16 }}>
         <div style={s.statCard}>
-          <span style={s.statLabel}>Unidades hidroeléctricas</span>
-          <span style={s.statValue} className="vme-num">{hidros.length}</span>
+          <span style={s.statLabel}>Centrales hidroeléctricas</span>
+          <span style={s.statValue} className="vme-num">{hidroParque.length}</span>
         </div>
         <div style={s.statCard}>
-          <span style={s.statLabel}>Potencia firme total</span>
-          <span style={s.statValue} className="vme-num">{fmtNumber(totalFirme, 0)} <span style={{ fontSize: 14, fontWeight: 500, color: '#6C757D' }}>MW</span></span>
+          <span style={s.statLabel}>Capacidad instalada total</span>
+          <span style={s.statValue} className="vme-num">{fmtNumber(totalCI, 0)} <span style={{ fontSize: 14, fontWeight: 500, color: '#6C757D' }}>MW</span></span>
         </div>
         <div style={s.statCard}>
           <span style={s.statLabel}>PEN total declarada</span>
@@ -42,11 +43,10 @@ export default function HidrosView({ hidros }) {
       </div>
 
       <ChartCard
-        title="Potencia firme por unidad hidroeléctrica"
-        sub="MW · ordenado por código de central"
-        legend={SUBTIPOS.map(st => ({ label: st, color: SUBTIPO_COLORS[st] || '#ADB5BD' }))}
+        title="Capacidad instalada por central hidroeléctrica"
+        sub="MW · ordenado por central · Fuente: Parque Generador SENI"
       >
-        <HidroFirmeBar data={hidros} />
+        <HidroFirmeBar data={hidroParque} />
       </ChartCard>
 
       {bySubtipo.map(group => (
@@ -56,7 +56,7 @@ export default function HidrosView({ hidros }) {
               <span style={{ width: 12, height: 12, borderRadius: 3, background: SUBTIPO_COLORS[group.subtipo] || '#ADB5BD', display: 'inline-block' }} />
               <h3 style={s.tableTitle}>{group.subtipo}</h3>
             </div>
-            <span style={s.tableSub}>{group.items.length} unidades · Pot. firme total: {fmtNumber(group.items.reduce((s, d) => s + (d.potFirme || 0), 0), 0)} MW</span>
+            <span style={s.tableSub}>{group.items.length} unidades · EGEHID</span>
           </div>
           <table style={{ width: '100%', borderCollapse: 'collapse' }}>
             <thead>
@@ -65,7 +65,6 @@ export default function HidrosView({ hidros }) {
                 <th style={th}>Código</th>
                 <th style={{ ...th, textAlign: 'right' }}>PEN (MW)</th>
                 <th style={{ ...th, textAlign: 'right' }}>Pot. media (MW)</th>
-                <th style={{ ...th, textAlign: 'right' }}>Pot. firme final (MW)</th>
               </tr>
             </thead>
             <tbody>
@@ -75,7 +74,6 @@ export default function HidrosView({ hidros }) {
                   <td style={{ ...td, fontFamily: 'monospace', fontSize: 12 }}>{r.codigo}</td>
                   <td style={{ ...td, textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{r.pen !== null ? fmtNumber(r.pen, 3) : '—'}</td>
                   <td style={{ ...td, textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{r.potMedia !== null ? fmtNumber(r.potMedia, 3) : '—'}</td>
-                  <td style={{ ...td, textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 600, color: '#004e68' }}>{r.potFirme !== null ? fmtNumber(r.potFirme, 3) : '—'}</td>
                 </tr>
               ))}
             </tbody>

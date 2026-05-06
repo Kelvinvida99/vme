@@ -5,7 +5,6 @@ const NAV = [
   { id: 'tecnologias', label: 'Tecnologías',        icon: 'activity' },
   { id: 'centrales',   label: 'Centrales',          icon: 'zap' },
   { id: 'hidros',      label: 'Hidroeléctricas',    icon: 'droplets' },
-  { id: 'notas',       label: 'Notas metodológicas',icon: 'file-text' },
 ]
 
 export default function Sidebar({ active, onChange }) {
