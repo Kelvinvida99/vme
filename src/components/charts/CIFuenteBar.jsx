@@ -2,15 +2,15 @@ import { useRef, useEffect, useState } from 'react'
 import * as d3 from 'd3'
 
 const FUENTE_COLORS = {
-  'Biomasa':          '#2E7D32',
-  'Eólica':           '#E46C0A',
-  'Hidroeléctrica':   '#4F81BD',
-  'Solar':            '#FFCC00',
-  'Gas Natural':      '#004e68',
-  'Fuel Oil':         '#495057',
-  'Carbón':           '#6C757D',
-  'Gas Licuado':      '#ADB5BD',
-  'Gas Licuado (LP)': '#ADB5BD',
+  'Biomasa':               '#2E7D32',
+  'Carbón':                '#6C757D',
+  'Eólico':                '#E46C0A',
+  'Fuel Oil No. 2':        '#ADB5BD',
+  'Fuel Oil No. 2 y No. 6':'#CED4DA',
+  'Fuel Oil No. 6':        '#495057',
+  'Gas Natural':           '#004e68',
+  'Hidráulica':            '#4F81BD',
+  'Solar':                 '#FFCC00',
 }
 
 export default function CIFuenteBar({ data }) {

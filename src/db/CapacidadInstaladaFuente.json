@@ -1,0 +1,13 @@
+{
+  "GetCapacidadInstaladaFuente": [
+    { "ANO": 2026, "FUENTE": "Biomasa",               "VALOR": 30,       "ACTUALIZADO": "2026-05-06T01:00:00.663" },
+    { "ANO": 2026, "FUENTE": "Carbón",                "VALOR": 1095,     "ACTUALIZADO": "2026-05-06T01:00:00.663" },
+    { "ANO": 2026, "FUENTE": "Eólico",                "VALOR": 482.15,   "ACTUALIZADO": "2026-05-06T01:00:00.663" },
+    { "ANO": 2026, "FUENTE": "Fuel Oil No. 2",        "VALOR": 494.72,   "ACTUALIZADO": "2026-05-06T01:00:00.663" },
+    { "ANO": 2026, "FUENTE": "Fuel Oil No. 2 y No. 6","VALOR": 0,        "ACTUALIZADO": "2026-05-06T01:00:00.663" },
+    { "ANO": 2026, "FUENTE": "Fuel Oil No. 6",        "VALOR": 1586.24,  "ACTUALIZADO": "2026-05-06T01:00:00.663" },
+    { "ANO": 2026, "FUENTE": "Gas Natural",           "VALOR": 1587.678, "ACTUALIZADO": "2026-05-06T01:00:00.663" },
+    { "ANO": 2026, "FUENTE": "Hidráulica",            "VALOR": 623.28,   "ACTUALIZADO": "2026-05-06T01:00:00.663" },
+    { "ANO": 2026, "FUENTE": "Solar",                 "VALOR": 1668.555, "ACTUALIZADO": "2026-05-06T01:00:00.663" }
+  ]
+}

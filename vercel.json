@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/wsoc/(.*)",
+      "destination": "https://apps.oc.org.do/wsoc/$1"
+    }
+  ]
+}
