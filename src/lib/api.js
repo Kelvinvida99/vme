@@ -3,7 +3,7 @@ const CLAVE      = "M1n15t3r10"
 const ANO_DEFAULT = "2026"
 
 export async function fetchCapacidadInstalada(ano = ANO_DEFAULT) {
-  const params = new URLSearchParams({ Ano: String(ano), Usuario: USUARIO, Clave: CLAVE })
+  const params = new URLSearchParams({ Ano: "2026", Usuario: USUARIO, Clave: CLAVE })
   const res = await fetch(
     `/wsoc/serviceextended.asmx/GetCapacidadInstaladaFuenteJSon?${params}`,
     { headers: { Accept: 'application/json, text/plain, */*' } },
