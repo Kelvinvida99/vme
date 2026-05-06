@@ -14,81 +14,89 @@ const FUENTE_COLORS = {
 }
 
 export default function CIFuenteBar({ data }) {
-  const svgRef = useRef(null)
+  const wrapRef = useRef(null)
+  const svgRef  = useRef(null)
   const [tooltip, setTooltip] = useState(null)
 
   useEffect(() => {
-    if (!data?.length || !svgRef.current) return
-    const el = svgRef.current
-    const W = el.clientWidth || 700
-    const pad = { l: 52, r: 16, t: 16, b: 80 }
-    const H = 300
+    const draw = () => {
+      if (!data?.length || !svgRef.current || !wrapRef.current) return
+      const W = wrapRef.current.clientWidth || 700
+      const pad = { l: 52, r: 16, t: 16, b: 80 }
+      const H = 300
+      const el = svgRef.current
 
-    d3.select(el).selectAll('*').remove()
-    const svg = d3.select(el).attr('viewBox', `0 0 ${W} ${H}`).attr('width', '100%').attr('height', H)
+      d3.select(el).selectAll('*').remove()
+      const svg = d3.select(el).attr('viewBox', `0 0 ${W} ${H}`).attr('width', '100%').attr('height', H)
 
-    const sorted = [...data].sort((a, b) => b.VALOR - a.VALOR)
+      const sorted = [...data].sort((a, b) => b.VALOR - a.VALOR)
 
-    const x = d3.scaleBand().domain(sorted.map(d => d.FUENTE)).range([pad.l, W - pad.r]).padding(0.2)
-    const yMax = d3.max(sorted, d => d.VALOR)
-    const y = d3.scaleLinear().domain([0, yMax]).range([H - pad.b, pad.t]).nice()
+      const x = d3.scaleBand().domain(sorted.map(d => d.FUENTE)).range([pad.l, W - pad.r]).padding(0.2)
+      const yMax = d3.max(sorted, d => d.VALOR)
+      const y = d3.scaleLinear().domain([0, yMax]).range([H - pad.b, pad.t]).nice()
 
-    const gridTicks = y.ticks(5)
-    svg.selectAll('.grid')
-      .data(gridTicks)
-      .join('line')
-      .attr('x1', pad.l).attr('x2', W - pad.r)
-      .attr('y1', d => y(d)).attr('y2', d => y(d))
-      .attr('stroke', '#EEF1F4')
+      const gridTicks = y.ticks(5)
+      svg.selectAll('.grid')
+        .data(gridTicks)
+        .join('line')
+        .attr('x1', pad.l).attr('x2', W - pad.r)
+        .attr('y1', d => y(d)).attr('y2', d => y(d))
+        .attr('stroke', '#EEF1F4')
 
-    svg.selectAll('.tick')
-      .data(gridTicks)
-      .join('text')
-      .attr('x', pad.l - 6).attr('y', d => y(d) + 3)
-      .attr('text-anchor', 'end').attr('font-size', 10)
-      .attr('fill', '#6C757D').attr('font-family', 'Inter, sans-serif')
-      .text(d => d3.format(',')(d))
+      svg.selectAll('.tick')
+        .data(gridTicks)
+        .join('text')
+        .attr('x', pad.l - 6).attr('y', d => y(d) + 3)
+        .attr('text-anchor', 'end').attr('font-size', 10)
+        .attr('fill', '#6C757D').attr('font-family', 'Inter, sans-serif')
+        .text(d => d3.format(',')(d))
 
-    svg.selectAll('.bar')
-      .data(sorted)
-      .join('rect')
-      .attr('class', 'bar')
-      .attr('x', d => x(d.FUENTE))
-      .attr('y', d => y(d.VALOR))
-      .attr('width', x.bandwidth())
-      .attr('height', d => (H - pad.b) - y(d.VALOR))
-      .attr('rx', 3)
-      .attr('fill', d => FUENTE_COLORS[d.FUENTE] || '#CED4DA')
-      .style('cursor', 'pointer')
-      .on('mouseenter', (event, d) => setTooltip({ x: event.offsetX, y: event.offsetY, d }))
-      .on('mousemove',  (event, d) => setTooltip({ x: event.offsetX, y: event.offsetY, d }))
-      .on('mouseleave', () => setTooltip(null))
+      svg.selectAll('.bar')
+        .data(sorted)
+        .join('rect')
+        .attr('class', 'bar')
+        .attr('x', d => x(d.FUENTE))
+        .attr('y', d => y(d.VALOR))
+        .attr('width', x.bandwidth())
+        .attr('height', d => (H - pad.b) - y(d.VALOR))
+        .attr('rx', 3)
+        .attr('fill', d => FUENTE_COLORS[d.FUENTE] || '#CED4DA')
+        .style('cursor', 'pointer')
+        .on('mouseenter', (event, d) => setTooltip({ x: event.offsetX, y: event.offsetY, d }))
+        .on('mousemove',  (event, d) => setTooltip({ x: event.offsetX, y: event.offsetY, d }))
+        .on('mouseleave', () => setTooltip(null))
 
-    svg.selectAll('.val-label')
-      .data(sorted)
-      .join('text')
-      .attr('x', d => x(d.FUENTE) + x.bandwidth() / 2)
-      .attr('y', d => y(d.VALOR) - 4)
-      .attr('text-anchor', 'middle')
-      .attr('font-size', 9)
-      .attr('font-weight', 600)
-      .attr('fill', '#343A40')
-      .attr('font-family', 'Inter, sans-serif')
-      .text(d => d3.format(',')(d.VALOR))
+      svg.selectAll('.val-label')
+        .data(sorted)
+        .join('text')
+        .attr('x', d => x(d.FUENTE) + x.bandwidth() / 2)
+        .attr('y', d => y(d.VALOR) - 4)
+        .attr('text-anchor', 'middle')
+        .attr('font-size', 9)
+        .attr('font-weight', 600)
+        .attr('fill', '#343A40')
+        .attr('font-family', 'Inter, sans-serif')
+        .text(d => d3.format(',')(d.VALOR))
 
-    svg.selectAll('.x-label')
-      .data(sorted)
-      .join('text')
-      .attr('transform', d => `translate(${x(d.FUENTE) + x.bandwidth() / 2},${H - pad.b + 8}) rotate(-40)`)
-      .attr('text-anchor', 'end')
-      .attr('font-size', 10)
-      .attr('fill', '#6C757D')
-      .attr('font-family', 'Inter, sans-serif')
-      .text(d => d.FUENTE)
+      svg.selectAll('.x-label')
+        .data(sorted)
+        .join('text')
+        .attr('transform', d => `translate(${x(d.FUENTE) + x.bandwidth() / 2},${H - pad.b + 8}) rotate(-40)`)
+        .attr('text-anchor', 'end')
+        .attr('font-size', 10)
+        .attr('fill', '#6C757D')
+        .attr('font-family', 'Inter, sans-serif')
+        .text(d => d.FUENTE)
+    }
+
+    draw()
+    const ro = new ResizeObserver(draw)
+    if (wrapRef.current) ro.observe(wrapRef.current)
+    return () => ro.disconnect()
   }, [data])
 
   return (
-    <div style={{ position: 'relative' }}>
+    <div ref={wrapRef} style={{ position: 'relative' }}>
       <svg ref={svgRef} />
       {tooltip && (
         <div style={{

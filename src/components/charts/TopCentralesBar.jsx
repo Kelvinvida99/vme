@@ -12,7 +12,8 @@ const TECH_COLORS = {
 }
 
 export default function TopCentralesBar({ data, n = 10 }) {
-  const svgRef = useRef(null)
+  const wrapRef = useRef(null)
+  const svgRef  = useRef(null)
   const [tooltip, setTooltip] = useState(null)
 
   const top = [...data]
@@ -21,61 +22,68 @@ export default function TopCentralesBar({ data, n = 10 }) {
     .slice(0, n)
 
   useEffect(() => {
-    if (!top.length || !svgRef.current) return
-    const el = svgRef.current
-    const W = el.clientWidth || 500
-    const pad = { l: 160, r: 56, t: 10, b: 10 }
-    const H = top.length * 32 + pad.t + pad.b
+    const draw = () => {
+      if (!top.length || !svgRef.current || !wrapRef.current) return
+      const W = wrapRef.current.clientWidth || 500
+      const pad = { l: 160, r: 56, t: 10, b: 10 }
+      const H = top.length * 32 + pad.t + pad.b
+      const el = svgRef.current
 
-    d3.select(el).selectAll('*').remove()
-    const svg = d3.select(el).attr('viewBox', `0 0 ${W} ${H}`).attr('width', '100%').attr('height', H)
+      d3.select(el).selectAll('*').remove()
+      const svg = d3.select(el).attr('viewBox', `0 0 ${W} ${H}`).attr('width', '100%').attr('height', H)
 
-    const xMax = d3.max(top, d => d.ci)
-    const x = d3.scaleLinear().domain([0, xMax]).range([pad.l, W - pad.r]).nice()
-    const y = d3.scaleBand().domain(top.map(d => d.central)).range([pad.t, H - pad.b]).padding(0.25)
+      const xMax = d3.max(top, d => d.ci)
+      const x = d3.scaleLinear().domain([0, xMax]).range([pad.l, W - pad.r]).nice()
+      const y = d3.scaleBand().domain(top.map(d => d.central)).range([pad.t, H - pad.b]).padding(0.25)
 
-    svg.selectAll('.bar')
-      .data(top)
-      .join('rect')
-      .attr('class', 'bar')
-      .attr('x', pad.l)
-      .attr('y', d => y(d.central))
-      .attr('width', d => x(d.ci) - pad.l)
-      .attr('height', y.bandwidth())
-      .attr('rx', 4)
-      .attr('fill', d => TECH_COLORS[d.tecnologia] || '#ADB5BD')
-      .style('cursor', 'pointer')
-      .on('mouseenter', (event, d) => setTooltip({ x: event.offsetX, y: event.offsetY, d }))
-      .on('mousemove', (event, d) => setTooltip({ x: event.offsetX, y: event.offsetY, d }))
-      .on('mouseleave', () => setTooltip(null))
+      svg.selectAll('.bar')
+        .data(top)
+        .join('rect')
+        .attr('class', 'bar')
+        .attr('x', pad.l)
+        .attr('y', d => y(d.central))
+        .attr('width', d => x(d.ci) - pad.l)
+        .attr('height', y.bandwidth())
+        .attr('rx', 4)
+        .attr('fill', d => TECH_COLORS[d.tecnologia] || '#ADB5BD')
+        .style('cursor', 'pointer')
+        .on('mouseenter', (event, d) => setTooltip({ x: event.offsetX, y: event.offsetY, d }))
+        .on('mousemove',  (event, d) => setTooltip({ x: event.offsetX, y: event.offsetY, d }))
+        .on('mouseleave', () => setTooltip(null))
 
-    svg.selectAll('.label-name')
-      .data(top)
-      .join('text')
-      .attr('class', 'label-name')
-      .attr('x', pad.l - 8)
-      .attr('y', d => y(d.central) + y.bandwidth() / 2 + 4)
-      .attr('text-anchor', 'end')
-      .attr('font-size', 11)
-      .attr('font-family', 'Inter, sans-serif')
-      .attr('fill', '#495057')
-      .text(d => d.central.length > 18 ? d.central.slice(0, 17) + '…' : d.central)
+      svg.selectAll('.label-name')
+        .data(top)
+        .join('text')
+        .attr('class', 'label-name')
+        .attr('x', pad.l - 8)
+        .attr('y', d => y(d.central) + y.bandwidth() / 2 + 4)
+        .attr('text-anchor', 'end')
+        .attr('font-size', 11)
+        .attr('font-family', 'Inter, sans-serif')
+        .attr('fill', '#495057')
+        .text(d => d.central.length > 18 ? d.central.slice(0, 17) + '…' : d.central)
 
-    svg.selectAll('.label-val')
-      .data(top)
-      .join('text')
-      .attr('class', 'label-val')
-      .attr('x', d => x(d.ci) + 6)
-      .attr('y', d => y(d.central) + y.bandwidth() / 2 + 4)
-      .attr('font-size', 11)
-      .attr('font-weight', 700)
-      .attr('font-family', 'Inter, sans-serif')
-      .attr('fill', '#004e68')
-      .text(d => d3.format(',')(Math.round(d.ci)))
+      svg.selectAll('.label-val')
+        .data(top)
+        .join('text')
+        .attr('class', 'label-val')
+        .attr('x', d => x(d.ci) + 6)
+        .attr('y', d => y(d.central) + y.bandwidth() / 2 + 4)
+        .attr('font-size', 11)
+        .attr('font-weight', 700)
+        .attr('font-family', 'Inter, sans-serif')
+        .attr('fill', '#004e68')
+        .text(d => d3.format(',')(Math.round(d.ci)))
+    }
+
+    draw()
+    const ro = new ResizeObserver(draw)
+    if (wrapRef.current) ro.observe(wrapRef.current)
+    return () => ro.disconnect()
   }, [top])
 
   return (
-    <div style={{ position: 'relative' }}>
+    <div ref={wrapRef} style={{ position: 'relative' }}>
       <svg ref={svgRef} />
       {tooltip && (
         <div style={{

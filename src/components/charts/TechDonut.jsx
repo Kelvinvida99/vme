@@ -12,69 +12,77 @@ const TECH_COLORS = {
 }
 
 export default function TechDonut({ data }) {
-  const svgRef = useRef(null)
+  const wrapRef = useRef(null)
+  const svgRef  = useRef(null)
   const [tooltip, setTooltip] = useState(null)
 
   useEffect(() => {
-    if (!data?.length || !svgRef.current) return
-    const el = svgRef.current
-    const W = el.clientWidth || 340
-    const H = 260
-    const R = Math.min(W, H) / 2 - 20
-    const innerR = R * 0.55
+    const draw = () => {
+      if (!data?.length || !svgRef.current || !wrapRef.current) return
+      const W = wrapRef.current.clientWidth || 340
+      const H = 260
+      const R = Math.min(W, H) / 2 - 20
+      const innerR = R * 0.55
+      const el = svgRef.current
 
-    d3.select(el).selectAll('*').remove()
-    const svg = d3.select(el)
-      .attr('viewBox', `0 0 ${W} ${H}`)
-      .attr('width', '100%')
-      .attr('height', H)
+      d3.select(el).selectAll('*').remove()
+      const svg = d3.select(el)
+        .attr('viewBox', `0 0 ${W} ${H}`)
+        .attr('width', '100%')
+        .attr('height', H)
 
-    const g = svg.append('g').attr('transform', `translate(${W / 2},${H / 2})`)
+      const g = svg.append('g').attr('transform', `translate(${W / 2},${H / 2})`)
 
-    const pie = d3.pie().value(d => d.ci).sort(null)
-    const arc = d3.arc().innerRadius(innerR).outerRadius(R)
-    const arcHover = d3.arc().innerRadius(innerR).outerRadius(R + 6)
+      const pie = d3.pie().value(d => d.ci).sort(null)
+      const arc = d3.arc().innerRadius(innerR).outerRadius(R)
+      const arcHover = d3.arc().innerRadius(innerR).outerRadius(R + 6)
 
-    const arcs = pie(data)
-    g.selectAll('path')
-      .data(arcs)
-      .join('path')
-      .attr('d', arc)
-      .attr('fill', d => TECH_COLORS[d.data.tecnologia] || '#CED4DA')
-      .attr('stroke', '#fff')
-      .attr('stroke-width', 2)
-      .style('cursor', 'pointer')
-      .style('transition', 'all 180ms cubic-bezier(0.2,0.6,0.2,1)')
-      .on('mouseenter', function (event, d) {
-        d3.select(this).attr('d', arcHover)
-        setTooltip({ x: event.offsetX, y: event.offsetY, d })
-      })
-      .on('mousemove', (event, d) => setTooltip({ x: event.offsetX, y: event.offsetY, d }))
-      .on('mouseleave', function (event, d) {
-        d3.select(this).attr('d', arc)
-        setTooltip(null)
-      })
+      const arcs = pie(data)
+      g.selectAll('path')
+        .data(arcs)
+        .join('path')
+        .attr('d', arc)
+        .attr('fill', d => TECH_COLORS[d.data.tecnologia] || '#CED4DA')
+        .attr('stroke', '#fff')
+        .attr('stroke-width', 2)
+        .style('cursor', 'pointer')
+        .style('transition', 'all 180ms cubic-bezier(0.2,0.6,0.2,1)')
+        .on('mouseenter', function (event, d) {
+          d3.select(this).attr('d', arcHover)
+          setTooltip({ x: event.offsetX, y: event.offsetY, d })
+        })
+        .on('mousemove', (event, d) => setTooltip({ x: event.offsetX, y: event.offsetY, d }))
+        .on('mouseleave', function () {
+          d3.select(this).attr('d', arc)
+          setTooltip(null)
+        })
 
-    const totalCI = d3.sum(data, d => d.ci)
-    g.append('text')
-      .attr('text-anchor', 'middle')
-      .attr('dy', '-0.3em')
-      .attr('font-size', 22)
-      .attr('font-weight', 700)
-      .attr('fill', '#004e68')
-      .attr('font-family', 'Inter, sans-serif')
-      .text(d3.format(',')(Math.round(totalCI)))
-    g.append('text')
-      .attr('text-anchor', 'middle')
-      .attr('dy', '1.2em')
-      .attr('font-size', 11)
-      .attr('fill', '#6C757D')
-      .attr('font-family', 'Inter, sans-serif')
-      .text('MW instalados')
+      const totalCI = d3.sum(data, d => d.ci)
+      g.append('text')
+        .attr('text-anchor', 'middle')
+        .attr('dy', '-0.3em')
+        .attr('font-size', 22)
+        .attr('font-weight', 700)
+        .attr('fill', '#004e68')
+        .attr('font-family', 'Inter, sans-serif')
+        .text(d3.format(',')(Math.round(totalCI)))
+      g.append('text')
+        .attr('text-anchor', 'middle')
+        .attr('dy', '1.2em')
+        .attr('font-size', 11)
+        .attr('fill', '#6C757D')
+        .attr('font-family', 'Inter, sans-serif')
+        .text('MW instalados')
+    }
+
+    draw()
+    const ro = new ResizeObserver(draw)
+    if (wrapRef.current) ro.observe(wrapRef.current)
+    return () => ro.disconnect()
   }, [data])
 
   return (
-    <div style={{ position: 'relative' }}>
+    <div ref={wrapRef} style={{ position: 'relative' }}>
       <svg ref={svgRef} />
       {tooltip && (
         <div style={{
