@@ -1,5 +1,5 @@
-const USUARIO    = import.meta.env.VITE_OC_USER ?? ''
-const CLAVE      = import.meta.env.VITE_OC_CLAVE ?? ''
+const USUARIO    = import.meta.env.VITE_OC_USER ?? 'MEM'
+const CLAVE      = import.meta.env.VITE_OC_CLAVE ?? 'M1n15t3r10'
 const ANO_DEFAULT = import.meta.env.VITE_OC_ANO ?? new Date().getFullYear()
 
 export async function fetchCapacidadInstalada(ano = ANO_DEFAULT) {
